@@ -13,8 +13,8 @@ dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
     implementation 'com.sun.mail:jakarta.mail:1.6.5'
-    runtime 'ch.qos.logback:logback-classic:1.2.3'
-    testCompile 'com.icegreen:greenmail:1.5.14'
+    runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
+    testImplementation 'com.icegreen:greenmail:1.5.14'
     testImplementation 'junit:junit:4.13'
     testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.6.2'
 }
